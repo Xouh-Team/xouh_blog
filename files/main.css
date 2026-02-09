@@ -134,3 +134,31 @@ body {
     margin-top: 24px;
     border-radius: 10px;
 }
+
+#page_footer {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#page_footer img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+/* Responsive Design */
+
+@media (max-width: 1030px) {
+    #main_title {
+        font-size: 150px;
+    }
+    #main_subtitle {
+        font-size: 30px;
+    }
+    .horizontal_cards_title {
+        font-size: 40px;
+    }
+}
